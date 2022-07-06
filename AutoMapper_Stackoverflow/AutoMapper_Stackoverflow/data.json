@@ -1,0 +1,468 @@
+{
+    "$id": "1",
+    "$type": "Oncolin.Entities.ClinicalPatientData, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "pseudonyme": null,
+    "id": 5759,
+    "commentaires": null,
+    "tumors": {
+        "$id": "7",
+        "$values": [
+            {
+                "$id": "8",
+                "$type": "Oncolin.Entities.TumorEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "identifier": "b05c86cf-24b5-452f-a300-3e02a691e68a",
+                "id": 6454,
+				"rang": 1,
+				"baseDiagnostic": 6,
+                "topographie": 348,
+                "morphologie": 80000,
+                "grade": 9,
+                "multifocalite": 1,
+                "commentaires": null,
+                "traitementInitial": null,
+                "patient": {
+                    "$ref": "1"
+                },
+                "treatments": {
+                    "$id": "37",
+                    "$values": []
+                },
+                "relatedMDMs": {
+                    "$id": "38",
+                    "$values": [
+                        {
+                            "$id": "39",
+                            "$type": "Oncolin.Entities.MdmEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "id": 1033,
+                            "realisationRCP": 1,
+                            "lieuRCP": null,
+                            "intituleRCP": null,
+                            "commentaires": null,
+                            "discussedTumors": {
+                                "$id": "40",
+                                "$values": [
+                                    {
+                                        "$ref": "8"
+                                    },
+                                    {
+										"$id": "41",
+										"$type": "Oncolin.Entities.TumorEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+										"identifier": "bfad8115-8496-49bd-894d-cb1a7cc1234b",
+										"id": 6455,
+										"rang": 2,
+										"baseDiagnostic": 6,
+										"topographie": 739,
+										"lateralite": -2,
+										"morphologie": 89403,
+										"grade": 1,
+										"multifocalite": 1,
+										"commentaires": null,
+										"traitementInitial": null,
+										"patient": {
+											"$ref": "1"
+										},
+										"treatments": {
+											"$id": "42",
+											"$values": []
+										},
+										"relatedMDMs": {
+											"$id": "43",
+											"$values": [
+												{
+													"$ref": "39"
+												}
+											]
+										}
+									}
+								]
+                            },
+                            "identifier": "b57f06a1-4fe3-4535-9f1e-51604df6055b"
+                        }
+					]
+                }
+            },
+			{
+				"$ref":  "41"
+			},
+			{
+                "$id": "44",
+                "$type": "Oncolin.Entities.TumorEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "identifier": "31df39c3-e480-4c16-9f39-499d4309704e",
+                "id": 6456,
+                "rang": 3,
+                "baseDiagnostic": 7,
+                "topographie": 181,
+                "lateralite": -2,
+                "morphologie": 80133,
+                "grade": 4,
+                "multifocalite": 1,
+                "commentaires": null,
+                "traitementInitial": null,
+                "patient": {
+                    "$ref": "1"
+                },
+                "treatments": {
+                    "$id": "45",
+                    "$values": []
+                },
+                "relatedMDMs": {
+                    "$id": "46",
+                    "$values": [
+                        {
+                            "$id": "47",
+                            "$type": "Oncolin.Entities.MdmEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "id": 1034,
+                            "realisationRCP": 1,
+                            "lieuRCP": null,
+                            "intituleRCP": null,
+                            "commentaires": null,
+                            "discussedTumors": {
+                                "$id": "48",
+                                "$values": [
+                                    {
+                                        "$ref": "44"
+                                    }
+								]
+                            },
+                            "identifier": "D23D8C07-78D4-4B15-9AFB-23489FA2D83C"
+                        }
+					]
+                }
+            },
+            {
+                "$id": "62",
+                "$type": "Oncolin.Entities.TumorEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "identifier": "b365dae2-85ce-4daa-95fd-b6c7205728ac",
+                "id": 6581,
+                "rang": 4,
+                "baseDiagnostic": 0,
+                "topographie": 0,
+                "topographiePeau": -2,
+                "lateralite": -2,
+                "morphologie": 80540,
+                "grade": 1,
+                "multifocalite": 1,
+                "commentaires": null,
+                "traitementInitial": null,
+                "patient": {
+                    "$ref": "1"
+                },
+                "treatments": {
+                    "$id": "63",
+                    "$values": []
+                },
+                "relatedMDMs": {
+                    "$id": "64",
+                    "$values": []
+                }
+            },
+            {
+                "$id": "65",
+                "$type": "Oncolin.Entities.TumorEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "identifier": "3fcff970-5d31-4902-b5e4-edc0f98267c1",
+                "id": 6583,
+                "rang": 5,
+                "baseDiagnostic": 0,
+                "topographie": 0,
+                "lateralite": -2,
+                "morphologie": 80540,
+                "grade": 1,
+                "multifocalite": 1,
+                "commentaires": null,
+                "traitementInitial": null,
+                "patient": {
+                    "$ref": "1"
+                },
+                "treatments": {
+                    "$id": "66",
+                    "$values": [
+					    {
+                            "$id": "67",
+                            "$type": "Oncolin.Entities.TreatmentEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "id": 11970,
+                            "typeTraitement": 1,
+                            "surveillance": -2,
+                            "etablissementTraitement": null,
+                            "commentaires": null,
+                            "treatedTumor": {
+                                "$ref": "65"
+                            },
+                            "identifier": "5D9B6E65-1EBE-42BC-88C9-8B3FC78C420B"
+                        },
+						{
+                            "$id": "68",
+                            "$type": "Oncolin.Entities.TreatmentEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "id": 11971,
+                            "typeTraitement": 1,
+                            "surveillance": -2,
+                            "etablissementTraitement": null,
+                            "commentaires": null,
+                            "treatedTumor": {
+                                "$ref": "65"
+                            },
+                            "identifier": "C4A3ABA6-9487-44AE-90D4-BC5DECB6EDEC"
+                        },
+						{
+                            "$id": "69",
+                            "$type": "Oncolin.Entities.TreatmentEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "id": 11972,
+                            "typeTraitement": 1,
+                            "surveillance": -2,
+                            "etablissementTraitement": null,
+                            "commentaires": null,
+                            "treatedTumor": {
+                                "$ref": "65"
+                            },
+                            "identifier": "AD62F811-79D0-4049-B8A2-2A563711B834"
+                        },
+						{
+                            "$id": "70",
+                            "$type": "Oncolin.Entities.TreatmentEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "id": 11973,
+                            "typeTraitement": 1,
+                            "surveillance": -2,
+                            "etablissementTraitement": null,
+                            "commentaires": null,
+                            "treatedTumor": {
+                                "$ref": "65"
+                            },
+                            "identifier": "A0C27D65-E065-40BD-AF15-43C991E372B3"
+                        },
+						{
+                            "$id": "71",
+                            "$type": "Oncolin.Entities.TreatmentEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "id": 11974,
+                            "typeTraitement": 1,
+                            "surveillance": -2,
+                            "etablissementTraitement": null,
+                            "commentaires": null,
+                            "treatedTumor": {
+                                "$ref": "65"
+                            },
+                            "identifier": "AB1E48E1-B2EB-4032-98C3-CAE402678FF4"
+                        },
+						{
+                            "$id": "72",
+                            "$type": "Oncolin.Entities.TreatmentEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "id": 11975,
+                            "typeTraitement": 1,
+                            "surveillance": -2,
+                            "etablissementTraitement": null,
+                            "commentaires": null,
+                            "treatedTumor": {
+                                "$ref": "65"
+                            },
+                            "identifier": "227CFC93-51B8-4EDA-8EDA-E2767643C86B"
+                        },
+						{
+                            "$id": "73",
+                            "$type": "Oncolin.Entities.TreatmentEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "id": 11976,
+                            "typeTraitement": 1,
+                            "surveillance": -2,
+                            "etablissementTraitement": null,
+                            "commentaires": null,
+                            "treatedTumor": {
+                                "$ref": "65"
+                            },
+                            "identifier": "D9B2BD79-99A1-4420-AAA2-C37FE7DA31A0"
+                        },
+						{
+                            "$id": "74",
+                            "$type": "Oncolin.Entities.TreatmentEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "id": 11977,
+                            "typeTraitement": 1,
+                            "surveillance": -2,
+                            "etablissementTraitement": null,
+                            "commentaires": null,
+                            "treatedTumor": {
+                                "$ref": "65"
+                            },
+                            "identifier": "E31CA108-F6B4-49BE-B13A-AE41B69AD7D2"
+                        },
+						{
+                            "$id": "75",
+                            "$type": "Oncolin.Entities.TreatmentEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "id": 11978,
+                            "typeTraitement": 1,
+                            "surveillance": -2,
+                            "etablissementTraitement": null,
+                            "commentaires": null,
+                            "treatedTumor": {
+                                "$ref": "65"
+                            },
+                            "identifier": "C8EEDB4F-61F6-41A1-B636-7673B51D1AEF"
+                        }
+					]
+                },
+                "relatedMDMs": {
+                    "$id": "76",
+                    "$values": [
+                        {
+                            "$id": "77",
+                            "$type": "Oncolin.Entities.MdmEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "id": 1070,
+                            "realisationRCP": 1,
+                            "lieuRCP": null,
+                            "intituleRCP": null,
+                            "commentaires": null,
+                            "discussedTumors": {
+                                "$id": "78",
+                                "$values": [
+                                    {
+                                        "$ref": "65"
+                                    }
+								]
+                            },
+                            "identifier": "5C6649DE-665E-454A-B890-3E220936DAE9"
+                        },
+						{
+                            "$id": "79",
+                            "$type": "Oncolin.Entities.MdmEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "id": 1071,
+                            "realisationRCP": 1,
+                            "lieuRCP": null,
+                            "intituleRCP": null,
+                            "commentaires": null,
+                            "discussedTumors": {
+                                "$id": "80",
+                                "$values": [
+                                    {
+                                        "$ref": "65"
+                                    }
+								]
+                            },
+                            "identifier": "B727992F-824A-42F5-A620-7FFDA9E064D3"
+                        },
+						{
+                            "$id": "81",
+                            "$type": "Oncolin.Entities.MdmEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "id": 1072,
+                            "realisationRCP": 1,
+                            "lieuRCP": null,
+                            "intituleRCP": null,
+                            "commentaires": null,
+                            "discussedTumors": {
+                                "$id": "82",
+                                "$values": [
+                                    {
+                                        "$ref": "65"
+                                    }
+								]
+                            },
+                            "identifier": "B0A7827E-AC26-4A02-AD35-C3B2CA26F2C5"
+                        },
+						{
+                            "$id": "83",
+                            "$type": "Oncolin.Entities.MdmEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "id": 1073,
+                            "realisationRCP": 1,
+                            "lieuRCP": null,
+                            "intituleRCP": null,
+                            "commentaires": null,
+                            "discussedTumors": {
+                                "$id": "84",
+                                "$values": [
+                                    {
+                                        "$ref": "65"
+                                    }
+								]
+                            },
+                            "identifier": "5F61CCF2-F71A-4405-8589-D92BC36510DA"
+                        },
+						{
+                            "$id": "85",
+                            "$type": "Oncolin.Entities.MdmEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "id": 1074,
+                            "realisationRCP": 1,
+                            "lieuRCP": null,
+                            "intituleRCP": null,
+                            "commentaires": null,
+                            "discussedTumors": {
+                                "$id": "86",
+                                "$values": [
+                                    {
+                                        "$ref": "65"
+                                    }
+								]
+                            },
+                            "identifier": "D10E26CF-D767-4103-B787-0B0A3E66EDEB"
+                        },
+						{
+                            "$id": "87",
+                            "$type": "Oncolin.Entities.MdmEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "id": 1075,
+                            "realisationRCP": 1,
+                            "lieuRCP": null,
+                            "intituleRCP": null,
+                            "commentaires": null,
+                            "discussedTumors": {
+                                "$id": "88",
+                                "$values": [
+                                    {
+                                        "$ref": "65"
+                                    }
+								]
+                            },
+                            "identifier": "E9E246DA-EF9A-4ADF-A51C-88B1651CED15"
+                        },
+						{
+                            "$id": "89",
+                            "$type": "Oncolin.Entities.MdmEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "id": 1076,
+                            "realisationRCP": 1,
+                            "lieuRCP": null,
+                            "intituleRCP": null,
+                            "commentaires": null,
+                            "discussedTumors": {
+                                "$id": "90",
+                                "$values": [
+                                    {
+                                        "$ref": "65"
+                                    }
+								]
+                            },
+                            "identifier": "D139BBA4-150F-441E-808B-E41A73694701"
+                        },
+						{
+                            "$id": "91",
+                            "$type": "Oncolin.Entities.MdmEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "id": 1077,
+                            "realisationRCP": 1,
+                            "lieuRCP": null,
+                            "intituleRCP": null,
+                            "commentaires": null,
+                            "discussedTumors": {
+                                "$id": "92",
+                                "$values": [
+                                    {
+                                        "$ref": "65"
+                                    }
+								]
+                            },
+                            "identifier": "5D1F29B3-C04D-4713-BBA2-09EEAE8D7D49"
+                        },
+						{
+                            "$id": "93",
+                            "$type": "Oncolin.Entities.MdmEntity, Oncolin.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "id": 1078,
+                            "realisationRCP": 1,
+                            "lieuRCP": null,
+                            "intituleRCP": null,
+                            "commentaires": null,
+                            "discussedTumors": {
+                                "$id": "94",
+                                "$values": [
+                                    {
+                                        "$ref": "65"
+                                    }
+								]
+                            },
+                            "identifier": "59078549-F5F0-4DB1-9E91-25AEE87E552C"
+                        }
+					]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapper_Stackoverflow", "AutoMapper_Stackoverflow\AutoMapper_Stackoverflow.csproj", "{36B7C3EE-D7D7-4C61-B1FC-47B9B26B91AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oncolin.Entities", "..\Oncolin.Entities\Oncolin.Entities.csproj", "{B500BC70-0FC7-4026-9928-5B4A5ACDACBE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oncolin.Model", "..\Oncolin.Model\Oncolin.Model.csproj", "{385D2556-F34D-4658-A4B1-4CBEC722B0D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Test|Any CPU = Test|Any CPU
+		Unsecure|Any CPU = Unsecure|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36B7C3EE-D7D7-4C61-B1FC-47B9B26B91AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B7C3EE-D7D7-4C61-B1FC-47B9B26B91AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B7C3EE-D7D7-4C61-B1FC-47B9B26B91AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B7C3EE-D7D7-4C61-B1FC-47B9B26B91AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B7C3EE-D7D7-4C61-B1FC-47B9B26B91AE}.Test|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B7C3EE-D7D7-4C61-B1FC-47B9B26B91AE}.Test|Any CPU.Build.0 = Debug|Any CPU
+		{36B7C3EE-D7D7-4C61-B1FC-47B9B26B91AE}.Unsecure|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B7C3EE-D7D7-4C61-B1FC-47B9B26B91AE}.Unsecure|Any CPU.Build.0 = Debug|Any CPU
+		{B500BC70-0FC7-4026-9928-5B4A5ACDACBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B500BC70-0FC7-4026-9928-5B4A5ACDACBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B500BC70-0FC7-4026-9928-5B4A5ACDACBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B500BC70-0FC7-4026-9928-5B4A5ACDACBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B500BC70-0FC7-4026-9928-5B4A5ACDACBE}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{B500BC70-0FC7-4026-9928-5B4A5ACDACBE}.Test|Any CPU.Build.0 = Test|Any CPU
+		{B500BC70-0FC7-4026-9928-5B4A5ACDACBE}.Unsecure|Any CPU.ActiveCfg = Unsecure|Any CPU
+		{B500BC70-0FC7-4026-9928-5B4A5ACDACBE}.Unsecure|Any CPU.Build.0 = Unsecure|Any CPU
+		{385D2556-F34D-4658-A4B1-4CBEC722B0D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385D2556-F34D-4658-A4B1-4CBEC722B0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385D2556-F34D-4658-A4B1-4CBEC722B0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385D2556-F34D-4658-A4B1-4CBEC722B0D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{385D2556-F34D-4658-A4B1-4CBEC722B0D1}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{385D2556-F34D-4658-A4B1-4CBEC722B0D1}.Test|Any CPU.Build.0 = Test|Any CPU
+		{385D2556-F34D-4658-A4B1-4CBEC722B0D1}.Unsecure|Any CPU.ActiveCfg = Unsecure|Any CPU
+		{385D2556-F34D-4658-A4B1-4CBEC722B0D1}.Unsecure|Any CPU.Build.0 = Unsecure|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2913FDFC-9BFE-40FB-9C10-8562BFB1DE20}
+	EndGlobalSection
+EndGlobal

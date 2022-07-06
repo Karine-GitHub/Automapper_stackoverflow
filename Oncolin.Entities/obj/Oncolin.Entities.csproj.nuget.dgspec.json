@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\krobinot\\Projects\\Automapper_stackoverflow\\Oncolin.Entities\\Oncolin.Entities.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\krobinot\\Projects\\Automapper_stackoverflow\\Oncolin.Entities\\Oncolin.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\krobinot\\Projects\\Automapper_stackoverflow\\Oncolin.Entities\\Oncolin.Entities.csproj",
+        "projectName": "Oncolin.Entities",
+        "projectPath": "C:\\Users\\krobinot\\Projects\\Automapper_stackoverflow\\Oncolin.Entities\\Oncolin.Entities.csproj",
+        "packagesPath": "C:\\Users\\krobinot\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krobinot\\Projects\\Automapper_stackoverflow\\Oncolin.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\krobinot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\shareces\\ces\\ces-It\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git.lih.lu/api/v4/projects/94/packages/nuget/index.json": {},
+          "https://nuget.devexpress.com/fTWv56e1JmilmzGOq6fP2hRQjkZo7kGZnCJC6qBK8JcPrkTh5E/api": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

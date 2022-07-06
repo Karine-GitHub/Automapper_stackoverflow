@@ -1,0 +1,12 @@
+C:\Users\krobinot\Projects\Automapper_stackoverflow\Oncolin.Model\bin\Debug\netstandard2.1\Oncolin.Model.dll.config
+C:\Users\krobinot\Projects\Automapper_stackoverflow\Oncolin.Model\bin\Debug\netstandard2.1\Oncolin.Model.deps.json
+C:\Users\krobinot\Projects\Automapper_stackoverflow\Oncolin.Model\bin\Debug\netstandard2.1\Oncolin.Model.dll
+C:\Users\krobinot\Projects\Automapper_stackoverflow\Oncolin.Model\bin\Debug\netstandard2.1\Oncolin.Model.pdb
+C:\Users\krobinot\Projects\Automapper_stackoverflow\Oncolin.Model\bin\Debug\netstandard2.1\Oncolin.Entities.dll
+C:\Users\krobinot\Projects\Automapper_stackoverflow\Oncolin.Model\bin\Debug\netstandard2.1\Oncolin.Entities.pdb
+C:\Users\krobinot\Projects\Automapper_stackoverflow\Oncolin.Model\obj\Debug\netstandard2.1\Oncolin.Model.csproj.AssemblyReference.cache
+C:\Users\krobinot\Projects\Automapper_stackoverflow\Oncolin.Model\obj\Debug\netstandard2.1\Oncolin.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krobinot\Projects\Automapper_stackoverflow\Oncolin.Model\obj\Debug\netstandard2.1\Oncolin.Model.csproj.CoreCompileInputs.cache
+C:\Users\krobinot\Projects\Automapper_stackoverflow\Oncolin.Model\obj\Debug\netstandard2.1\Oncolin.Model.csproj.CopyComplete
+C:\Users\krobinot\Projects\Automapper_stackoverflow\Oncolin.Model\obj\Debug\netstandard2.1\Oncolin.Model.dll
+C:\Users\krobinot\Projects\Automapper_stackoverflow\Oncolin.Model\obj\Debug\netstandard2.1\Oncolin.Model.pdb
